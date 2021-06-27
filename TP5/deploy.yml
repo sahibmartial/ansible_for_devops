@@ -11,11 +11,11 @@
         state: present
       when: ansible_distribution == "CentOS"
       
-    – name: download pip script
+    - name: download pip script
       get_url:
         url: https://bootstrap.pypa.io/pip/2.7/get-pip.py
         dest: /tmp/get-pip.py
-    – name: install python-pip
+    - name: install python-pip
       command: python2.7 /tmp/get-pip.py
     - name: Install docker python
       pip:
