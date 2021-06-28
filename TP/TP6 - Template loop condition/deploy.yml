@@ -24,11 +24,11 @@
         name: docker-py
       
   tasks:
-    - name: "copy website file template"
-      templates:
+    - name: copy website file template
+      template:
         src: index.html.j2
         dest: /home/admin/index.html
-    - name: Create apache a container
+    - name: Create a apache container
       docker_container:
         name: webapp
         image: httpd
