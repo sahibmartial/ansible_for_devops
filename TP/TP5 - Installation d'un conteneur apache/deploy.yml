@@ -3,7 +3,7 @@
   hosts: prod
   become: true
   vars:
-    ansible_sudo_pass: admin
+#    ansible_sudo_pass: admin
   pre_tasks:
     - name: install Epel repo
       package: 
