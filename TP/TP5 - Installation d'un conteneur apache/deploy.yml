@@ -2,7 +2,7 @@
 - name: "Installation d'un conteneur apache"
   hosts: prod
   become: true
-  vars:
+#  vars:
 #    ansible_sudo_pass: admin
   pre_tasks:
     - name: install Epel repo
