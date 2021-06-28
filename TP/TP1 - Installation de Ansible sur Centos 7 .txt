@@ -1,0 +1,11 @@
+- MAJ du système
+  sudo yum update -y
+- installer les release epel
+  sudo yum install epel-release -y
+- Installer Ansible
+  sudo yum install ansible -y 
+- Vérifier la Version de ansible
+  ansible --Version
+
+- Si vous voulez la dernière version et non celle sur epel
+  pip install ansible
