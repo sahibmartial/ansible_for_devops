@@ -1,4 +1,4 @@
-- Encrypter un fichier
+- Encrypter un fichier (On utilisera comme password de chiffrement toto)
 ansible-vault encrypt files/secrets/credentials.yml
 
 - Decrypter un fichier
