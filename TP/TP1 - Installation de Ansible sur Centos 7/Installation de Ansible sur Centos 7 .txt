@@ -9,3 +9,8 @@
 
 - Si vous voulez la dernière version et non celle sur epel
   pip install ansible
+
+
+- Avec python3, installation de pip3
+curl -sS https://bootstrap.pypa.io/get-pip.py | sudo python3
+pip3 install ansible
