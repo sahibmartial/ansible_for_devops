@@ -1,0 +1,16 @@
+- Encrypter un fichier
+ansible-vault encrypt files/secrets/credentials.yml
+
+- Decrypter un fichier
+ansible-vault decrypt files/secrets/credentials.yml
+
+- Lancer ansible en lui passant la clés de décrypter
+ansible-playbook -i hosts.yml --ask-vault-pass deploy.yml
+
+- créer un couple ssh de clés publique/privées
+ssh-keygen -t rsa
+
+- copier la clés publique sur le serveurs distant
+ssh-keygen -t rsa
+
+

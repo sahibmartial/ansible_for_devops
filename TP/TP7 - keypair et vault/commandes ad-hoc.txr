@@ -1,6 +1,0 @@
-ansible-vault encrypt files/secrets/credentials.yml
-
-ansible-vault decrypt files/secrets/credentials.yml
-
-ansible-playbook -i hosts.yml --ask-vault-pass deploy.yml
-
