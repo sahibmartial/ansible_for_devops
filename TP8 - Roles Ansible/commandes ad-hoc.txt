@@ -1,2 +1,2 @@
-- récurer mes roles
+- récupérer mes roles
 ansible-galaxy install -r roles/requirements.yml
