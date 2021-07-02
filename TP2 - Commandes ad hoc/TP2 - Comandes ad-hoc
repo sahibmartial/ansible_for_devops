@@ -1,9 +1,9 @@
 - Créer l'inventaire :  confer fichier hosts
-- Utiliser la commande ping :
+- Faire un ping sur la cible ansible via le module ping:
   ansible -i hosts all -m ping
-- Utiliser le module copy
+- Créer un fichier à l'aide du module copy
   ansible -i hosts all -m copy -a "dest=/home/admin/toto.txt content='bonjour eazytraining'"
-- Utiliser le module setup (Il permets de découvrir la machine distance)
+- Utiliser le module setup pour découvrir les machines distances
   ansible -i hosts all -m setup
   
   
