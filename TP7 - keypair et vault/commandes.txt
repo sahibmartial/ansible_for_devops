@@ -11,6 +11,6 @@ ansible-playbook -i hosts.yml --ask-vault-pass deploy.yml
 ssh-keygen -t rsa
 
 - copier la clés publique sur le serveurs distant
-ssh-keygen -t rsa
+ssh-copy-id admin@10.0.36.4
 
 
