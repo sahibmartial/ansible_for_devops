@@ -7,5 +7,4 @@ Dans ce TP, il faudrai déployer Tower et refaire le TP5
 - se connecter à l'IHM via le port 80
   login : admin 
   password : password
-
 - mots de passe vault du repos pour le déploiement via tower
